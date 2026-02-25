@@ -1,0 +1,45 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+build/
+*.lock
+*.log
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+
+# Android
+*.iml
+.gradle/
+local.properties
+android/
+app/debug/
+app/profile/
+app/release/
+
+# iOS
+*.pbxproj
+*.xcworkspace
+*.xcodeproj
+Pods/
+.swiftpm/
+ios/Flutter/
+ios/Runner.xcworkspace/
+ios/Pods/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+
+# Environment
+.env
+*.env

@@ -1,0 +1,29 @@
+
+# 2. Line number ~25 par jao
+# "YOUR_AGORA_APP_ID" ko apne actual App ID se replace karo
+
+# 3. Save (Ctrl+O, Enter) aur exit (Ctrl+X)
+
+# 4. App run karo
+flutter runimport 'package:flutter/material.dart';
+
+class AppConstants {
+  static const String appName = "Secret Calculator";
+  static const String secretCode = "123456#";
+
+  // Colors
+  static const Color primaryDark = Color(0xFF1C1C1C);
+  static const Color secondaryDark = Color(0xFF2C2C2C);
+  static const Color accentColor = Color(0xFFFF9F0A);
+  static const Color deepPurpleColor = Color(0xFF6B4EFF);
+  static const Color buttonGray = Color(0xFF333333);
+  static const Color buttonLightGray = Color(0xFFA5A5A5);
+
+  // 🔴 SIRF YEH LINE CHANGE KARO - APNA AGORA APP ID DAALO
+  // Agora Console se lo: https://console.agora.io
+  static const String agoraAppId = "YOUR_AGORA_APP_ID";  // ← YAHAN APNA ID DAALEIN
+
+  // Storage Keys
+  static const String myIdKey = 'my_agora_id';
+  static const String contactsKey = 'saved_contacts';
+}
